@@ -23,12 +23,6 @@
 # 超级粉丝互动 活动时间：7.31结束
 1 8 1-31 7 * node /scripts/jd_wxFans.js >> /scripts/logs/jd_wxFans.log 2>&1
 
-# 燃动夏季 活动时间：7.8-8.8
-20 0,6-23/2 * 7-8 * node /scripts/jd_summer_movement.js >> /scripts/logs/jd_summer_movement.log 2>&1
-
-# 燃动夏季百元守卫战_助力 活动时间：7.8-8.8
-14,41 7-14 * 7-8 * node /scripts/jd_summer_movement_help.js >> /scripts/logs/jd_summer_movement_help.log 2>&1
-
 # 星系牧场 #wen
 1 */2 * * * node /scripts/jd_qqxing.js >> /scripts/logs/jd_qqxing.log 2>&1
 

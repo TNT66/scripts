@@ -1,5 +1,11 @@
 ####################过期活动的定时####################
 
+# 燃动夏季 活动时间：7.8-8.8
+20 0,6-23/2 * 7-8 * node /scripts/jd_summer_movement.js >> /scripts/logs/jd_summer_movement.log 2>&1
+
+# 燃动夏季百元守卫战_助力 活动时间：7.8-8.8
+14,41 7-14 * 7-8 * node /scripts/jd_summer_movement_help.js >> /scripts/logs/jd_summer_movement_help.log 2>&1
+
 # 送豆得豆
 16 2,14 * * * node /scripts/jd_sendBeans.js >> /scripts/logs/jd_sendBeans.log 2>&1
 
